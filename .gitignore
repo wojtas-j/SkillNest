@@ -1,0 +1,133 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.lock
+*.bak
+*.tmp
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# WebStorm
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven/Gradle
+.mvn/
+/target/
+build/
+/.gradle
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Angular
+/dist
+/tmp
+/out-tsc
+/.angular/cache
+
+# Coverage reports
+/coverage
+
+# Miscellaneous
+/libpeerconnection.log
+testem.log
+/typings
+.sass-cache/
+.connect.lock
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+**/.dockerignore
+
+# Docker Volumes
+volumes/
+postgres-data/
+skillnest-postgres/
+
+# Environment Variables
+.env
+.env.*
+
+# CI/CD
+/.github/workflows/secrets
+
+# IDE-specific folders
+.idea/
+.project
+.classpath
+.settings/
+.history/
+.c9/
+*.launch
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ specific
+/.idea
+/target
+*.iml
+
+# Spring Boot specific
+/target/
+/bin/
+/build/
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*.orig
+*.rej
